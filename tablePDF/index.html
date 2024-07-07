@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF</title>
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    
+    <script src="assets/pdf.js"></script>
+    <script src="assets/jquerry.js"></script>
+    <script src="https://unpkg.com/jspdf-invoice-template@1.4.0/dist/index.js"></script>
+
+    
+
+
+
+
+
+<section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+       
+    <!-- ----------------HEAD OF PASSENGERS FORM ----------------- -->
+    <div class="passengers" id="headPasenger"> 
+
+        <div class="content"> 
+    
+         <h2>Head Of passengers</h2> 
+    
+         <div class="form"> 
+    
+           <div class="inputBox"> 
+             
+             <input type="text" id="headName" required> <i>Head Name</i> 
+    
+          </div>  
+          <div class="inputBox"> 
+    
+            <input type="number" id="contactNo" required> <i>Contact No</i> 
+     
+           </div> 
+    
+           <div class="inputBox"> 
+    
+            <input type="number" id="voucherNo" required> <i>Voucher No</i> 
+     
+           </div> 
+    
+           <div class="inputBox"> 
+    
+             <input  id="HeadPasengerNextBtn" type="submit" value="Next">  
+            
+           </div>  
+           
+         </div> 
+    
+        </div> 
+    
+       </div>
+
+
+    <!-- ---------------- MEMBER PASSENGERS FORM ----------------- -->
+
+       <div class="passengers" id="passengerMemberDetails"> 
+
+        <div class="content"> 
+    
+         <h2>passengers Details</h2> 
+         
+          <div class="form"> 
+    
+           <div class="inputBox"> 
+             
+             <input type="text" id="name" required> <i> Name</i> 
+    
+          </div>  
+          <div class="inputBox"> 
+    
+            <input type="text" id="gender" required> <i>Gender</i> 
+     
+           </div> 
+    
+          <div class="inputBox"> 
+    
+           <input type="number" id="passportNo" required> <i>Passport No</i> 
+     
+           </div> 
+    
+           <div class="inputBox"> 
+    
+    
+            <input type="number" id="visaNo" required> <i>Visa No</i> 
+     
+           </div> 
+        
+           <div class="inputBox"> 
+    
+             <input  id="nextToHotel" type="submit" value="Next">  
+             
+           </div>  
+    
+           <div class="inputBox"> 
+    
+            <input id="addMembers"  type="submit" value="Add">  
+        
+       </div>  
+  
+         </div> 
+    
+        </div> 
+    
+       </div>
+
+
+
+
+<!-- ---------------- HOTEL FORM ----------------- -->
+
+<div class="passengers" id="hotelDetails"> 
+
+    <div class="content"> 
+
+     <h6>HOTEL</h6> 
+     
+      <div class="form"> 
+
+       <div class="inputBox"> 
+         
+         <input type="text" id="hotelName" required> <i>Hotel Name</i> 
+
+      </div>  
+      <div class="inputBox"> 
+
+        <input type="text" id="city" required> <i>City</i> 
+ 
+       </div> 
+
+      <div class="inputBox"> 
+
+       <input type="text" id="roomType" required> <i>Room Type</i> 
+ 
+       </div> 
+
+       <div class="inputBox"> 
+
+
+        <input type="number" id="checkIn" required> <i>Check In</i> 
+ 
+       </div> 
+       <div class="inputBox"> 
+
+
+        <input type="number" id="checkOut" required> <i>Check out</i> 
+ 
+       </div> 
+       <div class="inputBox"> 
+
+
+        <input type="number" id="night" required> <i>Nights</i> 
+ 
+       </div> 
+    
+       <div class="inputBox"> 
+
+         <input  id="btnDownload" type="submit" value="Download PDF">  
+         
+       </div>  
+
+       <div class="inputBox"> 
+
+        <input id="addHotel"  type="submit" value="Add">  
+    
+   </div>  
+
+     </div> 
+
+    </div> 
+
+   </div>
+
+
+
+
+    </section>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- <h1>jsPDF Table Example</h1>
+    
+    <table id="inputTable">
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+            <th>Header 3</th>
+        </tr>
+        <tr>
+            <td><input type="text" id="col1"></td>
+            <td><input type="text" id="col2"></td>
+            <td><input type="text" id="col3"></td>
+        </tr>
+    </table>
+    
+    <button onclick="addRow()">Add Row</button>
+    <button onclick="generatePDF()">Generate PDF</button> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.18/jspdf.plugin.autotable.min.js"></script>
+
+</body>
+
+<script src="jquery.js"></script>
+<script src="index.js"></script>
+</html>
